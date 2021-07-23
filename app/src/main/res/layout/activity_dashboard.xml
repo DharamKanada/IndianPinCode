@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Dashboard">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Pin code details"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/inputEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter pin code"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/getInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="Get Info"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/detailsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
